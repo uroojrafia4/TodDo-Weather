@@ -2,6 +2,7 @@
   "name": "my-new-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://uroojrafia4.github.io/TodDo-Weather/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -38,4 +39,6 @@
       "last 1 safari version"
     ]
   }
+  
+
 }

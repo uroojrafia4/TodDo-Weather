@@ -7,7 +7,7 @@ import logo from "./logo.svg";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/TodDo-Weather">
       <div className="App">
         {/* Navigation bar */}
         <nav style={styles.nav}>
