@@ -1,0 +1,127 @@
+/* TodoApp.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .todo-app {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  h1 {
+    text-align: center;
+    color: #0063cc;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .task-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  .task-input {
+    padding: 10px;
+    border: 2px solid #ddd; /* Light gray border */
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none; /* Remove the default outline */
+    transition: border-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .task-input:focus {
+    border-color: #0063cc; /* Blue border when focused */
+    box-shadow: 0 0 8px rgba(0, 99, 204, 0.7); /* Blue glow effect */
+  }
+  
+  .add-button {
+    padding: 10px 15px;
+    background-color: rgb(48, 129, 236); /* Primary button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-out; /* Adds smooth transition for background-color */
+}
+
+.add-button:hover {
+    background-color: #2167a5; /* Darker shade for hover effect */
+}
+
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-text {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .task-completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #e53935;
+  }
+  .delete-icon {
+    fill: black;
+    cursor: pointer; /* Makes it clickable */
+    transition: transform 0.2s ease, fill 0.3s ease; /* Smooth animations */
+  }
+  
+  .delete-icon:hover {
+    fill: #a32015; /* Change color on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+  }
+  .done-icon {
+    cursor: pointer; /* Makes the icon clickable */
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: #138d19;
+    transition: transform 0.2s ease, fill 0.3s ease; /* Add interactivity */
+    margin-right: 10px; /* Space between the icon and the text */
+  }
+  
+  .done-icon:hover {
+    fill: #138d19; /* Brighter green on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+ 
